@@ -1,6 +1,6 @@
 # goatstickers-frontend
 
-Estou fazendo o front e integrando com a api para um site de vendas de stickers, para o front estou usando react com tailwind para estilização.
+Estou fazendo o front e integrando com uma api para um site de vendas de stickers, estou usando react com tailwind para estilização.
 
 #To do
 

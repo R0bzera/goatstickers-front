@@ -1,7 +1,9 @@
-goatstickers-frontend
+# goatstickers-frontend
+
 Estou fazendo o front e integrando com a api para um site de vendas de stickers, para o front estou usando react com tailwind para estilização.
 
-To do
+#To do
+
 criar componentes da tela home ✔️
 
 criar dropdown de login ✔️

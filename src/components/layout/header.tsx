@@ -28,8 +28,10 @@ function Header() {
       <div className="container mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-4">
 
         <div className="flex items-center ml-1">
-          <Logo className="w-12 h-10" />
-        </div>
+          <Link to="/">
+            <Logo className="w-12 h-10" />
+          </Link>
+       </div>
 
         <div className="flex justify-center flex-1 min-w-[200px] md:min-w-[400px]">
           <div className="relative w-full max-w-[700px]">
@@ -55,11 +57,11 @@ function Header() {
           {isDropdownOpen && (
             <div
               ref={dropdownRef}
-              className="absolute right-0 top-12 mt-2 w-[250px] bg-[#ebecee] text-black rounded-md shadow-xl p-4 z-50"
+              className="absolute right-0 top-12 mt-2 w-[250px] bg-[#f1f1f1] text-black rounded-md shadow-xl p-4 z-50"
             >
-              <h2 className="text-lg font-bold mb-3 text-center text-[#000000]">Entrar</h2>
+              <h2 className="text-lg font-bold mb-3 text-center text-[#151B3F]">Entrar</h2>
               <LoginForms onSuccess={() => setIsDropdownOpen(false)} />
-              <p className="mt-4 text-xs text-center text-[#000000]">
+              <p className="mt-4 text-xs text-center text-[#151B3F]">
                 Ainda não possui conta?{" "}
                 <Link to="/cadastro" className="text-[#FA8232] font-semibold hover:underline">
                   Clique aqui
@@ -70,9 +72,9 @@ function Header() {
 
           <span className="text-[#c9b793] hidden sm:block">|</span>
 
-          <button type="button" className="hover:text-[#c9b793]">
-            <CartIcon className="w-5 h-5 md:w-6 md:h-6 text-[#c9b793]" />
-          </button>
+         <Link to="/cart" className="hover:text-[#c9b793]">
+           <CartIcon className="w-5 h-5 md:w-6 md:h-6 text-[#c9b793]" />
+         </Link>
 
           <span className="text-[#c9b793] hidden sm:block">|</span>
 

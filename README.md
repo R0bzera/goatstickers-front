@@ -10,9 +10,13 @@ criar dropdown de login ✔️
 
 componente de cadastro ✔️
 
-envar requisição de cadastro para API✔️
+enviar requisição de cadastro para API✔️
 
-envar requisição de login para API✔️
+enviar requisição de login para API✔️
+
+componente carrinho ✔️
+
+enviar requisição do carrinho para api ❌
 
 Etc...
 

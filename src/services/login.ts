@@ -1,5 +1,4 @@
-// src/services/api.ts
-const API_BASE_URL = "http://localhost:8080"; // Ajuste se necessário
+const API_BASE_URL = "http://localhost:8080";
 
 export async function autenticarUsuario(data: {
   email: string;
@@ -16,5 +15,5 @@ export async function autenticarUsuario(data: {
     throw new Error(errData.message || "Erro ao fazer login");
   }
 
-  return resp.json(); // Espera-se que o backend retorne JWT/token ou dados do usuário
+  return resp.json();
 }
